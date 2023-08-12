@@ -120,8 +120,11 @@
 .icon-wi-fi:before {
   content: "\e94f";
 }
-.icon-heart:before {
+/* .icon-heart:before {
   content: "\e950";
+} */
+.icon-gmail:before {
+  content: "\e9c2"; 
 }
 .icon-flash:before {
   content: "\e951";
