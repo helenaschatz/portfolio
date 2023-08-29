@@ -397,6 +397,16 @@ body.offcanvas {
       padding-top: 5em;
       padding-bottom: 8em; } }
 
+.right {
+  /* float: right; */
+  background: rgb(255, 255, 255);
+
+  padding: 0.5em;
+  margin-top: 0em;
+  margin-left: 38em;
+
+}
+
 .author-img {
   background-size: cover;
   background-position: center center;
