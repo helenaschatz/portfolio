@@ -1451,3 +1451,24 @@ body.offcanvas {
 
 .js .animate-box {
   opacity: 0; }
+
+
+
+
+.social-buttons {
+  margin-bottom: 0;
+  padding: auto;
+  padding-left: 80px;
+  
+  
+}
+
+.social-buttons a {
+  font-size: 20px;
+  line-height: 40px;
+  display: inline-flex;
+  width: 40px;
+  height: 40px;
+  justify-content: center;
+}
+
