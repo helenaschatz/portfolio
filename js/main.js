@@ -295,9 +295,12 @@
 		burgerMenu();
 
 		clickMenu();
-		// navActive();
+//
+		navActive();
+
 		navigationSection();
-		// windowScroll();
+//		
+		windowScroll();
 
 
 		mobileMenuOutsideClick();
@@ -305,6 +308,38 @@
 		stickyFunction();
 		owlCrouselFeatureSlide();
 	});
+
+
+	
+
+
+
+
+
+// 		// Document on load.
+// 	$(function(){
+// 		fullHeight();
+// 		counter();
+// 		counterWayPoint();
+// 		contentWayPoint();
+// 		burgerMenu();
+
+// 		clickMenu();
+// //
+// 		navActive();
+
+// 		navigationSection();
+// //		
+// 		windowScroll();
+
+
+// 		mobileMenuOutsideClick();
+// 		sliderMain();
+// 		stickyFunction();
+// 		owlCrouselFeatureSlide();
+// 	});
+
+
 
 
 }());
