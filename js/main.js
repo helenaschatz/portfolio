@@ -288,10 +288,10 @@
 
 // Load More button functionality
 $(document).ready(function(){
-  $(".project").slice(0, 4).show();
+  $(".project").slice(0, 6).show();
   $("#loadMore").on("click", function(e){
     e.preventDefault();
-    $(".project:hidden").slice(0, 2).slideDown();
+    $(".project:hidden").slice(0, 4).slideDown();
     if($(".project:hidden").length == 0) {
       $("#loadMore").text("No Content").addClass("nobtn");
     }
