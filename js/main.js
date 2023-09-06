@@ -286,6 +286,20 @@
 		})
 	};
 
+// Load More button functionality
+$(document).ready(function(){
+  $(".project").slice(0, 4).show();
+  $("#loadMore").on("click", function(e){
+    e.preventDefault();
+    $(".project:hidden").slice(0, 2).slideDown();
+    if($(".project:hidden").length == 0) {
+      $("#loadMore").text("No Content").addClass("nobtn");
+    }
+  });
+  
+})
+
+
 	// Document on load.
 	$(function(){
 		fullHeight();
@@ -309,37 +323,5 @@
 		owlCrouselFeatureSlide();
 	});
 
-
 	
-
-
-
-
-
-// 		// Document on load.
-// 	$(function(){
-// 		fullHeight();
-// 		counter();
-// 		counterWayPoint();
-// 		contentWayPoint();
-// 		burgerMenu();
-
-// 		clickMenu();
-// //
-// 		navActive();
-
-// 		navigationSection();
-// //		
-// 		windowScroll();
-
-
-// 		mobileMenuOutsideClick();
-// 		sliderMain();
-// 		stickyFunction();
-// 		owlCrouselFeatureSlide();
-// 	});
-
-
-
-
 }());
