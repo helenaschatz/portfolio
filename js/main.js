@@ -291,7 +291,7 @@ $(document).ready(function(){
   $(".project").slice(0, 6).show();
   $("#loadMore").on("click", function(e){
     e.preventDefault();
-    $(".project:hidden").slice(0, 4).slideDown();
+    $(".project:hidden").slice(0, 6).slideDown();
     if($(".project:hidden").length == 0) {
       $("#loadMore").text("No Content").addClass("nobtn");
     }
