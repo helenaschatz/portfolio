@@ -285,8 +285,7 @@
 	     	]
 		})
 	};
-
-// Load More button functionality
+	// Load More button functionality
 $(document).ready(function(){
   $(".project").slice(0, 6).show();
   $("#loadMore").on("click", function(e){
@@ -307,16 +306,11 @@ $(document).ready(function(){
 		counterWayPoint();
 		contentWayPoint();
 		burgerMenu();
-
 		clickMenu();
-//
-		navActive();
-
+		///navActive();
 		navigationSection();
 //		
 		windowScroll();
-
-
 		mobileMenuOutsideClick();
 		sliderMain();
 		stickyFunction();
