@@ -293,7 +293,7 @@ $(document).ready(function(){
     e.preventDefault();
     $(".project:hidden").slice(0, 6).slideDown();
     if($(".project:hidden").length == 0) {
-      $("#loadMore").text("No Content").addClass("nobtn");
+      $("#loadMore").text("End of Content").addClass("nobtn");
     }
   });
   
